@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express @types/express ts-node-dev typescripit cors @types/cors mongoose
+
+PATH: 
+  C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Microsoft\jdk-11.0.18.10-hotspot\bin;C:\Python311\Scripts\;C:\Python311\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\User\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\User\AppData\Local\Android\Sdk\platform-tools;C:\php-8.2.9;C:\Program Files\nodejs\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Local\Programs\oh-my-posh\bin;C:\Users\User\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\User\AppData\Local\Android\Sdk\platform-tools;C:\Users\User\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typescripit: Not found
+      at params.callback [as _callback] (C:\Users\User\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Users\User\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1408:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "modular_pattern",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
