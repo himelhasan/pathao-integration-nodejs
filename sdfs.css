@@ -1,0 +1,212 @@
+#preloader {
+  display: none !important;
+}
+
+/* typography css starts  */
+p {
+  font-family: "Red Hat Text", Sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.4px; /* 130% */
+}
+h1,
+h2 {
+  font-family: "Red Hat Text", Sans-serif;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h3 {
+  font-family: "Red Hat Text", Sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h4 {
+  font-family: "Red Hat Text", Sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h5 {
+  font-family: "Red Hat Text", Sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* typography css ends  */
+
+/* bg-and-text css starts*/
+.primarybg {
+  background: #283c8c !important;
+}
+.secondarybg {
+  background: #01afcc !important;
+}
+.greybg {
+  background: #949494 !important;
+}
+
+.primary-text {
+  color: #283c8c !important;
+}
+.secondary-text {
+  color: #01afcc !important;
+}
+.grey-text {
+  color: #949494 !important;
+}
+
+.gradientbg {
+  background: linear-gradient(270deg, #283c8c 11.97%, #00aecb 77.35%);
+  mix-blend-mode: multiply;
+}
+
+.three-card-bg {
+  background: linear-gradient(180deg, #001568 9.24%, #3ce3ff 130.35%);
+  box-shadow: 0px 20px 35px 0px rgba(39, 59, 139, 0.15);
+}
+
+.blue-green-bg {
+  background: linear-gradient(270deg, #283c8c 11.97%, #00aecb 77.35%);
+}
+
+.dark-light-blue-bg {
+  border-radius: 25px;
+  background: linear-gradient(180deg, #001568 9.24%, #3ce3ff 130.35%);
+  box-shadow: 0px 20px 35px 0px rgba(39, 59, 139, 0.15);
+}
+
+.card-bg {
+  border-radius: 0px 25px 25px 25px;
+  background: linear-gradient(180deg, #020e3d 16.73%, #273b8b 105.31%);
+}
+/* bg-and-text css starts*/
+
+.three-card-description {
+  color: #fff;
+  text-align: center;
+  font-family: "Red Hat Text", Sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.2px; /* 130% */
+}
+
+/* service single page design css starts here */
+
+.sidebar-bg {
+  border-radius: 25px;
+  background: linear-gradient(180deg, #273b8b 29.38%, #00aecb 138.66%);
+  box-shadow: 0px 4px 27px 0px rgba(39, 59, 139, 0.1);
+}
+
+/* .sidebar-content-bg .elementor-accordion{
+	border-radius: 12px;
+border: 1px solid #FFF;
+opacity: 0.28;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.57) 0%, rgba(255, 255, 255, 0.14) 100%);
+} */
+
+/* 
+.sidebar-content-bg .elementor-accordion .elementor-tab-title,
+.sidebar-content-bg .elementor-accordion .elementor-tab-content {
+    opacity: 1 !important; 
+} 
+
+*/
+
+.sidebar-content-bg .elementor-accordion {
+  position: relative;
+  border-radius: 12px;
+  border: 1px solid #fff;
+}
+
+.sidebar-content-bg .elementor-accordion::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  bottom: 0;
+  left: 20px;
+  border-radius: 12px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.57) 0%,
+    rgba(255, 255, 255, 0.14) 0%
+  );
+  pointer-events: none; /* Allow clicks to go through the overlay */
+}
+
+.sidebar-content-bg .elementor-accordion .elementor-tab-title,
+.sidebar-content-bg .elementor-accordion .elementor-tab-content {
+  position: relative; /* Ensure z-index works */
+  z-index: 1; /* Place the content above the overlay */
+}
+
+.sidebar-menu-items .elementor-icon-list-item {
+  padding: 10px 35px !important;
+}
+
+.sidebar-menu-items .elementor-icon-list-item:hover {
+  background: rgba(255, 255, 255, 0.31);
+  padding: 10px 35px !important;
+}
+
+.inner-page-hero-bg {
+  border-radius: 25px 25px 0px 0px;
+  background: linear-gradient(180deg, #00aecb 25.93%, #fff 100%);
+}
+.inner-page-container {
+  border-radius: 25px;
+  background: #fff;
+  box-shadow: 0px 4px 27.6px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* service single page design css ends here */
+
+/* testimonial slider starts */
+.ti-widget.ti-goog .ti-review-item > .ti-inner {
+  padding: 40px !important;
+}
+
+.ti-widget.ti-goog .ti-review-item > .ti-inner,
+.ti-widget.ti-goog .ti-load-more-reviews-button {
+  border-radius: 20px !important;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1) !important;
+}
+
+.ti-widget.ti-goog .ti-widget-container .ti-name,
+.ti-widget.ti-goog .ti-review-content,
+.ti-date,
+.ti-widget.ti-goog .ti-read-more span {
+  font-family: "Red Hat Text", Sans-serif !important;
+}
+
+.ti-profile-img > img {
+  border: 3px solid #283c8c !important;
+}
+
+.ti-name {
+  color: #283c8c !important;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: normal;
+}
+
+.ti-review-content {
+  color: #000 !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+}
+/* testimonial slider ends*/

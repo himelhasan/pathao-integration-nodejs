@@ -8,6 +8,7 @@ const dbConnect = async (): Promise<void> => {
       log.error("NO URI FOUND IN THE environment");
       process.exit(1);
     }
+
     await mongoose.connect(URI);
     log.info("DB Connected");
   } catch (error: any) {
