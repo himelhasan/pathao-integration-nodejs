@@ -22,7 +22,7 @@ dbConnect();
 // import routers
 // default routers
 app.get("/", (req, res) => {
-  res.send("Welcome to the summer home server  ");
+  res.send("Welcome to the pathao home server  ");
 });
 
 // custom route paths

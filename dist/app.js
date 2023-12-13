@@ -24,7 +24,7 @@ app.set("view engine", "ejs");
 // import routers
 // default routers
 app.get("/", (req, res) => {
-    res.send("Welcome to the server  ");
+    res.send("Welcome to the pathao home server  ");
 });
 // custom route paths
 app.use("/api/v1/products", product_router_1.default);

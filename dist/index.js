@@ -23,28 +23,3 @@ const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
     }
 });
 startServer();
-// //
-// const URI = process.env.URI;
-// const port = process.env.PORT || 5000;
-// // database connection
-// const dbConnect = async (): Promise<void> => {
-//   if (!URI) {
-//     throw new Error("URI is required");
-//   }
-//   await mongoose.connect(URI).then(() => console.log("database connected"));
-//   const database = mongoose.connection;
-//   //collection name
-//   const usersCollection = database.collection("users");
-//   app.get("/persons", async (req, res) => {
-//     const result = await usersCollection.find({}).limit(10).toArray();
-//     res.send(result);
-//   });
-// };
-// dbConnect();
-// app.get("/", (req, res) => {
-//   res.send({
-//     message: `our server is running on  ${port}`,
-//     status: 200,
-//   });
-// });
-// app.listen(port, () => console.log("listening on port " + port));
